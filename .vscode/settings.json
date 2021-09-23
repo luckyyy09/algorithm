@@ -3,6 +3,13 @@
     "vector": "cpp",
     "xstring": "cpp",
     "utility": "cpp",
-    "string": "cpp"
+    "string": "cpp",
+    "deque": "cpp",
+    "initializer_list": "cpp",
+    "xutility": "cpp",
+    "set": "cpp",
+    "xtree": "cpp",
+    "stack": "cpp",
+    "type_traits": "cpp"
   }
 }
