@@ -27,3 +27,4 @@
 # 2. Find the state transition function which usually will be like:
 # f(m, n) = min{f(m - 1, n), f(m, n - 1)} + w(m, n); This the current status is determined by previous status and current information w(m, n).
 # 3. Initialize the boundary information for the state transition function.
+
