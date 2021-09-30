@@ -1,2 +1,29 @@
-// Here I will give my thoughts about Dynamic-programming as I have done some
-// questions about is at LeetCode.
+# Here will give my thoughts about Dynamic-programming as I have finished some
+# questions about dynamic programming at LeetCode.
+
+# Which kind of questions is better to use Dynamic programming to deal with?
+# Below are characteristics of problems applicable to dynamic programming.
+# 
+# 1. The goal is to find the optimal solution.
+# 2. The question can be decomposed to sub-questions.
+# 3. The final optimal solution can be determined by the decomposed sub-questions.
+# 4. As the way to get the overall optimal solution has splited to several step, 
+#    the result of current step is not affected by next steps.
+# 5. The result of the problem has a final end condition.
+
+# Acrroding to the characteristics of the dynamic programming, their are some sigenificant concepts.
+# 1. Optimal sub-structure.
+# 2. State transition function.
+# 3. Boundary conditions.
+
+#   For optimal sub-structure, it means that whole question can be decomposed to several small questions
+# and each of the small question is still a optimal question and the result of current question won't
+# be affected by behind subquestions.
+#   State transition function means that there is a function can determine the result of current step with the forward results.
+#   Boundary conditions means that the dynamic programming must be initialized with boundary information.
+
+# Steps to solve the dynamic programming problem.
+# 1. Devide the whole question to several phases which means we have to find a status to describe each phase. Assume the status is f(m, n).
+# 2. Find the state transition function which usually will be like:
+# f(m, n) = min{f(m - 1, n), f(m, n - 1)} + w(m, n); This the current status is determined by previous status and current information w(m, n).
+# 3. Initialize the boundary information for the state transition function.
